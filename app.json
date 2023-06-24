@@ -38,7 +38,7 @@
     },
     "WEBHOOK_URL": {
       "description": "Your app could be published to any domain, without specifying n8n will think that it's hosted on localhost (and it could break some scenarions ",
-      "value": "https://<appname>.herokuapp.com"
+      "value": "https://ealflm-n8n.herokuapp.com"
     },
     "EXECUTIONS_MODE": {
       "description": "This is to set the n8n executions mode to queue mode, recommended to be used with Postgres or MySQL",
