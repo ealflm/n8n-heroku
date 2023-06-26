@@ -43,6 +43,18 @@
     "EXECUTIONS_MODE": {
       "description": "This is to set the n8n executions mode to queue mode, recommended to be used with Postgres or MySQL",
       "value": "queue"
+    },
+    "EXECUTIONS_DATA_PRUNE": {
+      "description": "Activate automatic data pruning",
+      "value": true
+    },
+    "EXECUTIONS_DATA_MAX_AGE": {
+      "description": "Number of hours after execution that n8n deletes data",
+      "value": 96
+    },
+    "EXECUTIONS_DATA_PRUNE_MAX_COUNT": {
+      "description": "Number of executions to store",
+      "value": 3000
     }
   },
   "formation": {
